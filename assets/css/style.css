@@ -6,6 +6,13 @@ body {
     text-align: center;
 }
 
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
 #header ul {
     display: flex;
     margin: 0 auto;
@@ -44,9 +51,7 @@ body {
     text-decoration: none;
     color: white;
 }
-.active-page,
 .nav-links a:hover,
-.nav-links a:active,
 .icon-links a:hover,
 .w3-container a:hover {
     color: lightcoral;
@@ -59,6 +64,18 @@ body {
 img {
     max-width: 55px;
     max-height: 55px;
+}
+
+#info {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: 70px auto 0px;
+}
+
+#info p {
+    margin: 0px 30px;
 }
 
 #videos {
