@@ -2,6 +2,10 @@ body {
     background-color: lightcoral;
 }
 
+.center-text {
+    text-align: center;
+}
+
 #header ul {
     display: flex;
     margin: 0 auto;
@@ -60,4 +64,12 @@ img {
 #videos {
     display: flex;
     /* margin: 0 auto; */
+}
+
+#form-div {
+    width: 20%;
+    margin: 0 auto;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
 }
